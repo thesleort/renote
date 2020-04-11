@@ -12,12 +12,14 @@ add_subdirectory(src)
 
 include_directories(${Renote_SOURCE_DIR}/include)
 
-# Cairo Tutorial
+# Renote executable
 add_executable(renote
   ${Renote_SOURCE_DIR}/src/renote.c
 )
 
-target_link_libraries(cairo_tutorial PUBLIC
+file(COPY gui/ribbon.ui DESTINATION ./)
+
+target_link_libraries(renote PUBLIC
   PkgConfig::GTK+3.0
   PkgConfig::CAIRO
 )
