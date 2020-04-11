@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.ui": "xml",
+    "*.weights": "properties",
+    "cairo_tutorial.h": "c"
+  }
+}

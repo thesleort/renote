@@ -1,0 +1,42 @@
+{
+  "configurations": [
+      {
+          "name": "Linux",
+          "includePath": [
+              "${workspaceRoot}/include",
+              "/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+              "/usr/include/glib-2.0/",
+              "/usr/lib/x86_64-linux-gnu/glibmm-2.4/include",
+              "/usr/include/gstreamer-1.0",
+              "/usr/include/**",
+              "/usr/include/gtkmm-3.0",
+              "/usr/include/glibmm-2.4/",
+              "/usr/include/sigc++-2.0/sigc++",
+              "/usr/include/sigc++-2.0/",
+              "/usr/lib/x86_64-linux-gnu/sigc++-2.0/include/",
+              "/usr/include/giomm-2.4",
+              "/usr/lib/x86_64-linux-gnu/giomm-2.4/include",
+              "/usr/include/gdkmm-3.0",
+              "/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include",
+              "/usr/include/pango-1.0",
+              "/usr/lib/x86_64-linux-gnu/pangomm-1.4/include",
+              "/usr/include/gtk-3.0",
+              "/usr/include/cairo",
+              "/usr/include/cairomm-1.0",
+              "/usr/include/gdk-pixbuf-2.0",
+              "/usr/include/freetype2",
+              "/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include",
+              "/usr/include/pangomm-1.4",
+              "/usr/include/atkmm-1.6",
+              "/usr/include/atk-1.0",
+              "/usr/include/webkitgtk-4.0"
+          ],
+          "defines": [],
+          "compilerPath": "/usr/bin/gcc",
+          "cStandard": "c11",
+          "cppStandard": "c++17",
+          "intelliSenseMode": "gcc-x64"
+      }
+  ],
+  "version": 4
+}
